@@ -1,0 +1,21 @@
+Console commands:
+================
+* compile .ts file to .js: tsc filename.ts (.ts optional)
+* run .js file: node filename.js (.js optional)
+* auto-compilation: tsc filename --wat
+
+New things/notes:
+======================
+* `` is reserved for multi-line strings and can have ${} which is called a template string
+* null and undefined types: sub-types of all other types (allow values of null and undefined)
+* arrays here remind me of vectors in C++
+* tuples here are like lists in Python, except have fixed size and need types declared
+* enums are just like enums in C++
+* any type: allows for dynamic typing
+* unknown type: any value can be assigned, but unlike type any, . operator and function calls can not be used on the variable
+* type assertion: like type casting
+* === checks if types and values are the same
+* == will perform type conversions if necessary and check values
+* optional paramters (ones with ?) are default undefined if not given a value
+* default paramters are like optional paramters, but with default values
+* class members are default public
